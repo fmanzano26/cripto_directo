@@ -1,0 +1,31 @@
+#titulo {
+font-family: Calibri;
+color: darkblue;
+text-align: center;
+font-weight: bold;
+}
+
+#modulo1 {
+font-family: Calibri;
+color: darkblue;
+text-align: left;
+line-height: 1.0;
+}
+
+#modulo2 {
+font-family: Calibri;
+color: black;
+}
+
+
+#descripcion {
+font-family: Calibri;
+padding: 16px;
+background-color: lightskyblue;
+}
+
+#descripcion p {
+font-family: Calibri;
+font-size: 18px;
+}
+

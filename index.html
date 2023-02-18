@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Hola! Esto es un comentario en HTML -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+  <!-- Este Título lo deben cambiar -->
+	<title>Criptoprecios JM</title>
+  <link rel="shortcut icon" href="/Images/favicon1.png">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <!-- El título que aparece en la página -->
+	<h1 id="titulo">CRIPTOMONEDAS EN DIRECTO</h1>
+  
+
+	<select name="monedas" id="menuMonedas">
+    <option value="bitcoin" selected="selected">Bitcoin</option>
+    <option value="ethereum">Ethereum</option>
+    <option value="monero">Monero</option>
+    <option value="litecoin">Litecoin</option>
+  </select>
+
+    <div id="modulo1">
+      <p id="contexto1"></p>
+      <p id="contexto2"></p>
+      <p id="contexto3"></p>
+      <p id="contexto4"></p>
+    </div>
+    <div id="modulo2"></div>
+    <div id="descripcion">
+      <p>La gráfica presenta la variación en el precio de la criptomoneda <a id="contexto5"> </a> en tiempo real. Como se puede observar, su precio varía en espacios muy cortos de tiempo.</p>
+      <p>Según la definición del Banco de España, una criptomoneda (o moneda virtual) es un instrumento de pago que no tiene soporte físico y que se basa en un algoritmo matemático. Las criptomonedas no están respaldadas por un banco central que asegure su valor, por lo que su precio varía en función de la oferta y la demanda.</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
